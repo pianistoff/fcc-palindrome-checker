@@ -9,10 +9,8 @@ function palindrome(str) {
     }
   }
 
-const str = document.getElementById("palindrome").value;
-const result = document.getElementById("result");
-
 function display(str) {
+    const result = document.getElementById("result");
     if (palindrome(str)) {
         result.textContent = "This is a palindrome!";
         result.style.color = "green";
