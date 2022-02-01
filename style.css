@@ -10,7 +10,8 @@ parent {
 }
 
 textarea {
-    width: 282.92px
+    width: 282.92px;
+    border: 1px solid black;
 }
 
 button {
